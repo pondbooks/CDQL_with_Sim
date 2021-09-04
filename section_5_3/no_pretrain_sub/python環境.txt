@@ -1,0 +1,4 @@
+python ver. 3.6.10
+Pytorch 1.5.1
+matplotlib 3.3.0
+numpy 1.18.5
