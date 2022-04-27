@@ -4,7 +4,7 @@ Pre-train DNN's paramete vectors are in weight_DNN.
 
 https://arxiv.org/abs/2101.05640
 
-The example of a discrete-time system is a pendulum dynamics computed by **Euler-method** with stepsize ``2**(-4)``. We describe the dynamics in ``Pendulum.pdf``. 
+The example of a discrete-time system is a pendulum dynamics computed by **Euler-method** with stepsize ``2**(-4)``. We describe the dynamics in ``Pendulum.pdf``. The range of an angle is ``[-np.pi, np.pi]``.
 
 ![スクリーンショット 2022-04-28 8 54 00](https://user-images.githubusercontent.com/68591842/165649603-357b407c-b8fb-46be-bee6-0e1ed5f9dd33.png)
 
