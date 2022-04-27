@@ -5,7 +5,8 @@ https://arxiv.org/abs/2101.05640
 
 #### Normalize an angle
 
-We use ``np.arctan2`` function https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html. 
+We use the ``np.arctan2(y, x)`` function (https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html) for normalization of an angle parameter. The range of the angle parameter is [-pi, pi]. At first, the ``angle_normalize`` obtains an angle parameter theta. Secondly, the function computes the y-coordinate and x-coordinate by ``np.sin(theta)`` and ``np.cos(theta)``, respectively. Finally, the function computes the normalized angle by ``np.arctan2(y,x)``.
+
 ```
 def angle_normalize(theta):
   x_plot = np.cos(theta)
