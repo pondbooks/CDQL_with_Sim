@@ -18,6 +18,8 @@ def angle_normalize(theta):
   return angle
 ```
 
+![image](https://user-images.githubusercontent.com/68591842/165648899-3a8b65e0-ff0c-466b-bf4d-51c83e4e3e16.png)
+
 #### warning (2022/4/10)
 In this source code, we use `A**(-1)` for computing an inverse matrix. However, in this case, we must define the matrix as `np.matrix`. So, we should change `A**(-1)` to `np.linalg.inv()`. In this example, fortunately, we consider the 1-dim problem. We can obtain the same result. 
 
