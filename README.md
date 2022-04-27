@@ -6,6 +6,8 @@ https://arxiv.org/abs/2101.05640
 
 The example of a discrete-time system is a pendulum dynamics computed by **Euler-method** with stepsize ``2**(-4)``. We describe the dynamics in ``Pendulum.pdf``. 
 
+![スクリーンショット 2022-04-28 8 54 00](https://user-images.githubusercontent.com/68591842/165649603-357b407c-b8fb-46be-bee6-0e1ed5f9dd33.png)
+
 #### Normalize an angle
 
 We use the ``np.arctan2(y, x)`` function (https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html) for normalization of an angle parameter. The range of the angle parameter is ``[-np.pi, np.pi]``. At first, the ``angle_normalize`` obtains an angle parameter theta. Secondly, the function computes the y-coordinate ``y`` and x-coordinate ``x`` by ``np.sin(theta)`` and ``np.cos(theta)``, respectively. Finally, the function computes the normalized angle by ``np.arctan2(y,x)``.
