@@ -1,7 +1,10 @@
 ### Source Code of Continuous Deep Q-Learning with Simulator for Stabilization of Uncertain Discrete-Time Systems
 
 Pre-train DNN's paramete vectors are in weight_DNN.
+
 https://arxiv.org/abs/2101.05640
+
+The example is a discritized pendulum dynamics using Euler-approximation with stepsize ``2**(-4)``. We describe the dynamics in ``pendulum.pdf``. 
 
 #### Normalize an angle
 
