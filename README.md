@@ -5,6 +5,7 @@ https://arxiv.org/abs/2101.05640
 
 #### Normalize an angle
 
+We use ``np.arctan2`` function https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html. 
 ```
 def angle_normalize(theta):
   x_plot = np.cos(theta)
