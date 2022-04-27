@@ -20,7 +20,7 @@ def angle_normalize(theta):
 
 ![image](https://user-images.githubusercontent.com/68591842/165648899-3a8b65e0-ff0c-466b-bf4d-51c83e4e3e16.png)
 
-This Fig. shows the angle normalize function in the range ``[-5*np.pi, 5*np.pi]``. The red lines show the angles = -5*np.pi, -3*np.pi, -np.pi, np.pi, 3*np.pi, 5*np.pi. The blue lines show the normalized angles = -3*np.pi, 3*np.pi.
+This Fig. shows the angle normalize function in the range ``[-5*np.pi, 5*np.pi]``. The red lines show the angles = ``-5*np.pi``, ``-3*np.pi``, ``-np.pi``, ``np.pi``, ``3*np.pi``, ``5*np.pi``. The blue lines show the normalized angles = ``-3*np.pi``, ``3*np.pi``.
 
 #### warning (2022/4/10)
 In this source code, we use `A**(-1)` for computing an inverse matrix. However, in this case, we must define the matrix as `np.matrix`. So, we should change `A**(-1)` to `np.linalg.inv()`. In this example, fortunately, we consider the 1-dim problem. We can obtain the same result. 
