@@ -8,7 +8,7 @@ The example is a discritized pendulum dynamics using Euler-approximation with st
 
 #### Normalize an angle
 
-We use the ``np.arctan2(y, x)`` function (https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html) for normalization of an angle parameter. The range of the angle parameter is [-pi, pi]. At first, the ``angle_normalize`` obtains an angle parameter theta. Secondly, the function computes the y-coordinate and x-coordinate by ``np.sin(theta)`` and ``np.cos(theta)``, respectively. Finally, the function computes the normalized angle by ``np.arctan2(y,x)``.
+We use the ``np.arctan2(y, x)`` function (https://numpy.org/doc/stable/reference/generated/numpy.arctan2.html) for normalization of an angle parameter. The range of the angle parameter is ``[-np.pi, np.pi]``. At first, the ``angle_normalize`` obtains an angle parameter theta. Secondly, the function computes the y-coordinate ``y`` and x-coordinate ``x`` by ``np.sin(theta)`` and ``np.cos(theta)``, respectively. Finally, the function computes the normalized angle by ``np.arctan2(y,x)``.
 
 ```
 def angle_normalize(theta):
