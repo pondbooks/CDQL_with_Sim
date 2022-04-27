@@ -3,6 +3,16 @@
 Pre-train DNN's paramete vectors are in weight_DNN.
 https://arxiv.org/abs/2101.05640
 
+#### Normalize an angle
+
+``
+def angle_normalize(theta):
+  x_plot = np.cos(theta)
+  y_plot = np.sin(theta)
+  angle = np.arctan2(y_plot,x_plot)
+  return angle
+``
+
 #### warning (2022/4/10)
 In this source code, we use `A**(-1)` for computing an inverse matrix. However, in this case, we must define the matrix as `np.matrix`. So, we should change `A**(-1)` to `np.linalg.inv()`. In this example, fortunately, we consider the 1-dim problem. We can obtain the same result. 
 
