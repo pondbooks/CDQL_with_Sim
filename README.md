@@ -1,4 +1,4 @@
-### Source Code of Continuous Deep Q-Learning with Simulator for Stabilization of Uncertain Discrete-Time Systems
+### Source Code of Continuous Deep Q-Learning with Simulator for Stabilization of Uncertain Discrete-Time Systems (Sim-CDQL)
 
 Pre-train DNN's paramete vectors are in weight_DNN.
 
