@@ -31,11 +31,19 @@ In this source code, we use `A**(-1)` for computing an inverse matrix. However, 
 
 #### PC
 CPU: Intel Core i7-10700 (1200/2.9/16M/C8/T16)  
+
 Memory: Samsung M378A2K43CB1-CTD (DDR4 PC4-21300) 16GB×2 
+
 Motherboard: ASUS PRIME H470-PLUS (H470 1200 DDR4 ATX)I
+
 GPU: NVIDIA(R) GeForce RTX 2070 SUPER 
+
 OS: windows10
+
 Python: 3.6.10
+
 Pytorch: 1.5.1
+
 matplotlib: 3.3.0
+
 numpy: 1.18.5
